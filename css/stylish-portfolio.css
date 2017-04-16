@@ -377,6 +377,10 @@ footer {
 		width:40%;
 }
 
+#footer-img{
+	margin: 0 auto;
+}
+
 /* Large desktop */
 @media (min-width: 1200px) { 
 
