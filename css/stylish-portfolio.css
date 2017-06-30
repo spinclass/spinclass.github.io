@@ -414,6 +414,35 @@ footer {
 	margin: 0 auto;
 }
 
+#carousel-page2 > .item > img {
+		width: 75%;
+		margin: 0 auto;
+}
+
+#march-issue > .item > img{
+		width:40%;
+	}
+#carousel-page > .item > img {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#carousel-page2 > .item > img {
+	width: 75%;
+	margin: 0 auto;
+}
+
+#carousel-recentissue > .item > img { 
+	width: 80%;
+}
+
+#carousel-recentissue2 > .item > img { 
+	width: 75%;
+}
+#carousel-page2 > .item > img {
+		width: 75%;
+		margin: 0 auto;
+	}
 /* Large desktop */
 @media (min-width: 1200px) { 
 
@@ -428,9 +457,8 @@ footer {
 		width: 80%;
 		margin: 0 auto;
 	}
-	
 	#carousel-page2 > .item > img {
-		width: 75%;
+		width: 74%;
 		margin: 0 auto;
 	}
 	
@@ -443,6 +471,10 @@ footer {
 	}
 	.covers{
 		width:40% !important;
+	}
+	
+	.covers2{
+		width: 37% !important;
 	}
 
 	.img-portfolio:hover {
@@ -459,10 +491,16 @@ footer {
 	#march-issue > .item > img{
 		width:60%;
 	}
+	#carousel-page2 > .item > img {
+		width: 95%;
+		margin: 0 auto;
+	}
 	#carousel-recentissue > .item > img { 
 		width: 80%;
 	}
-	
+	#carousel-recentissue2 > .item > img { 
+		width: 96%;
+	}
 	.covers{
 		width:47.5% !important;
 	}
@@ -487,9 +525,15 @@ footer {
 	#carousel-recentissue > .item > img { 
 		width: 80%;
 	}
-
+	#carousel-recentissue2 > .item > img { 
+		width: 100%;
+	}
 	#carousel-page > .item > img {
 		width: 80%;
+		margin: 0 auto;
+	}
+	#carousel-page2 > .item > img {
+		width: 95%;
 		margin: 0 auto;
 	}
 	.covers{
@@ -507,7 +551,10 @@ footer {
 	#carousel-recentissue > .item > img { 
 		width: 100%;
 	}
-	
+	#carousel-page2 > .item > img {
+		width: 95%;
+		margin: 0 auto;
+	}
 	#carousel-page > .item > img {
 		width: 100%;
 		margin: 0 auto;
