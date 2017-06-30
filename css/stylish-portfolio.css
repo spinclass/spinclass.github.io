@@ -429,8 +429,17 @@ footer {
 		margin: 0 auto;
 	}
 	
+	#carousel-page2 > .item > img {
+		width: 75%;
+		margin: 0 auto;
+	}
+	
 	#carousel-recentissue > .item > img { 
 		width: 80%;
+	}
+	
+	#carousel-recentissue2 > .item > img { 
+		width: 75%;
 	}
 	.covers{
 		width:40% !important;
@@ -446,13 +455,14 @@ footer {
  }
 
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) { 
+@media (min-width: 768px) and (max-width: 1200px) { 
 	#march-issue > .item > img{
 		width:60%;
 	}
 	#carousel-recentissue > .item > img { 
 		width: 80%;
 	}
+	
 	.covers{
 		width:47.5% !important;
 	}
@@ -464,6 +474,8 @@ footer {
 	.portfolio-item:hover .text-content {
 		visibility:visible;
 	}
+	
+
  }
 
 /* Landscape phone to portrait tablet */
