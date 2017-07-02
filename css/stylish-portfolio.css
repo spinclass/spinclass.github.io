@@ -44,7 +44,10 @@ h2, h3, h4{
      1px 1px 0 #000;
 	
 }
-
+.songs{
+	width:50%;
+	margin-top: 2rem;
+}
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -443,12 +446,15 @@ footer {
 		width: 75%;
 		margin: 0 auto;
 	}
+	
 /* Large desktop */
 @media (min-width: 1200px) { 
-
+	.songs{
+		width:50%;
+	}
 	#myCarousel
 	{
-
+	
 	}
 	#march-issue > .item > img{
 		width:40%;
@@ -488,6 +494,9 @@ footer {
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 1200px) { 
+	.songs{
+		width:70%;
+	}
 	#march-issue > .item > img{
 		width:60%;
 	}
@@ -518,7 +527,10 @@ footer {
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) { 
-
+	.songs{
+		width:82%;
+	}
+	
 	#march-issue > .item > img{
 		width:100%;
 	}
@@ -548,6 +560,9 @@ footer {
 /* Landscape phones and down */
 @media (max-width: 480px) { 
 
+	.songs{
+		width:97%;
+	}
 	#carousel-recentissue > .item > img { 
 		width: 100%;
 	}
